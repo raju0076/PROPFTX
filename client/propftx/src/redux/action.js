@@ -23,7 +23,7 @@ export const fetchData=()=>{
         
                 try {
                     dispatch(fetchLoading())
-                    const res=await axios.get("http://localhost:8000/getmovies")
+                    const res=await axios.get("https://movielistapp-4.onrender.com/movie")
                     dispatch(fetchSuccess(res.data))
                 } catch (error) {
                     dispatch(fetchError(error.message))

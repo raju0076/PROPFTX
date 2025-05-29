@@ -1,35 +1,37 @@
 import React, { useEffect } from 'react';
-import axios from 'axios';
-import { fetchData } from '../redux/action';
 import { useDispatch, useSelector } from 'react-redux';
+import { fetchData } from '../redux/action';
 import "../styles/MovieCard.css";
 
 export const MovieCard = () => {
   const dispatch = useDispatch();
-  const { movies, loading, error } = useSelector(state => state.movies);
+  const { movies, loading, error } = useSelector((state) => state);
 
   useEffect(() => {
     dispatch(fetchData());
   }, [dispatch]);
 
-  // Optional: Log the movies for debugging
   console.log("Movies from Redux:", movies);
 
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error: {error}</p>;
-  if (!Array.isArray(movies)) return <p>No movies found.</p>; // ✅ Safety check
+  if (!movies || !Array.isArray(movies.data)) return <p>No movies found.</p>;
 
-  return (
-    <div className="movie-grid">
-      {movies.map((movie) => (
-        <div key={movie._id} className="movie-card">
-          <h1>{movie.title}</h1>
-          <p>Director: {movie.director}</p>
-          <p>{movie.cast}</p>
-          <p>Release Date: {movie.releaseDate}</p>
-          <p>Rating: {movie.rating}</p>
+ return (
+  <div className="movie-grid">
+    {movies.data.map((movie) => {
+
+      return (
+        <div key={movie.id} className="movie-card">
+          <img src={movie.poster_path} alt={movie.original_title} />
+          <h1>{movie.original_title}</h1>
+          <p><strong>Release Date:</strong> {movie.release_date}</p>
+          <p><strong>Rating:</strong> {movie.vote_average}  <span  style={{ color:  '#FFD700'  }}>★</span></p>
+          <p><strong>overview:</strong> {movie.overview}</p>
         </div>
-      ))}
-    </div>
-  );
+      );
+    })}
+  </div>
+);
+
 };

@@ -18,16 +18,14 @@ export const fetchSuccess=(data)=>(
     payload:data}
 )
 
-export const fetchData=()=>{
-    return async (dispatch)=>{
-        
-                try {
-                    dispatch(fetchLoading())
-                    const res=await axios.get("https://movielistapp-4.onrender.com/movie")
-                    dispatch(fetchSuccess(res.data))
-                } catch (error) {
-                    dispatch(fetchError(error.message))
-                }
-            
+export const fetchData = () => {
+  return async (dispatch) => {
+    try {
+      dispatch(fetchLoading());
+      const res = await axios.get("https://jsonfakery.com/movies/paginated");
+      dispatch(fetchSuccess(res.data));
+    } catch (error) {
+      dispatch(fetchError(error.message));
     }
-}
+  };
+};

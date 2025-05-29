@@ -1,0 +1,184 @@
+[
+  {
+    "_id": "6654c77c77c6b3041fe602c5",
+    "title": "Asuran",
+    "director": "Vetrimaran",
+    "year": 2019,
+    "createdAt": "2024-05-27T07:27:56.661Z",
+    "updatedAt": "2024-05-27T07:27:56.661Z",
+    "__v": 0
+  },
+  {
+    "_id": "6654c7a177c6b3041fe602c8",
+    "title": "Vada Chennai",
+    "director": "Vetrimaran",
+    "year": 2018,
+    "createdAt": "2024-05-27T07:28:33.087Z",
+    "updatedAt": "2024-05-27T07:28:33.087Z",
+    "__v": 0
+  },
+  {
+    "_id": "6654c7a777c6b3041fe602ca",
+    "title": "Pudhupettai",
+    "director": "Selvaraghavan",
+    "year": 2006,
+    "createdAt": "2024-05-27T07:28:39.932Z",
+    "updatedAt": "2024-05-27T07:28:39.932Z",
+    "__v": 0
+  },
+  {
+    "_id": "6654c7ad77c6b3041fe602cc",
+    "title": "3",
+    "director": "Aishwarya Rajinikanth",
+    "year": 2012,
+    "createdAt": "2024-05-27T07:28:45.527Z",
+    "updatedAt": "2024-05-27T07:28:45.527Z",
+    "__v": 0
+  },
+  {
+    "_id": "6654c7b377c6b3041fe602ce",
+    "title": "Mayakkam Enna",
+    "director": "Selvaraghavan",
+    "year": 2011,
+    "createdAt": "2024-05-27T07:28:51.103Z",
+    "updatedAt": "2024-05-27T07:28:51.103Z",
+    "__v": 0
+  },
+  {
+    "_id": "6654c7b977c6b3041fe602d0",
+    "title": "Kaaka Muttai",
+    "director": "M. Manikandan",
+    "year": 2014,
+    "createdAt": "2024-05-27T07:28:57.319Z",
+    "updatedAt": "2024-05-27T07:28:57.319Z",
+    "__v": 0
+  },
+  {
+    "_id": "6654c7c177c6b3041fe602d2",
+    "title": "Super Deluxe",
+    "director": "Thiagarajan Kumararaja",
+    "year": 2019,
+    "createdAt": "2024-05-27T07:29:05.306Z",
+    "updatedAt": "2024-05-27T07:29:05.306Z",
+    "__v": 0
+  },
+  {
+    "_id": "6654c7c777c6b3041fe602d4",
+    "title": "Soodhu Kavvum",
+    "director": "Nalan Kumarasamy",
+    "year": 2013,
+    "createdAt": "2024-05-27T07:29:11.647Z",
+    "updatedAt": "2024-05-27T07:29:11.647Z",
+    "__v": 0
+  },
+  {
+    "_id": "6654c7ce77c6b3041fe602d6",
+    "title": "Aadukalam",
+    "director": "Vetrimaran",
+    "year": 2011,
+    "createdAt": "2024-05-27T07:29:18.823Z",
+    "updatedAt": "2024-05-27T07:29:18.823Z",
+    "__v": 0
+  },
+  {
+    "_id": "6654c7d577c6b3041fe602d8",
+    "title": "Pariyerum Perumal",
+    "director": "Mari Selvaraj",
+    "year": 2018,
+    "createdAt": "2024-05-27T07:29:25.532Z",
+    "updatedAt": "2024-05-27T07:29:25.532Z",
+    "__v": 0
+  },
+
+  {
+    "_id": "6654e00177c6b3041fe602e0",
+    "title": "Jigarthanda",
+    "director": "Karthik Subbaraj",
+    "year": 2014,
+    "createdAt": "2024-05-27T09:00:01.000Z",
+    "updatedAt": "2024-05-27T09:00:01.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "6654e00777c6b3041fe602e2",
+    "title": "Iraivi",
+    "director": "Karthik Subbaraj",
+    "year": 2016,
+    "createdAt": "2024-05-27T09:00:07.000Z",
+    "updatedAt": "2024-05-27T09:00:07.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "6654e00d77c6b3041fe602e4",
+    "title": "96",
+    "director": "C. Prem Kumar",
+    "year": 2018,
+    "createdAt": "2024-05-27T09:00:13.000Z",
+    "updatedAt": "2024-05-27T09:00:13.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "6654e01477c6b3041fe602e6",
+    "title": "Vikram Vedha",
+    "director": "Pushkar–Gayathri",
+    "year": 2017,
+    "createdAt": "2024-05-27T09:00:20.000Z",
+    "updatedAt": "2024-05-27T09:00:20.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "6654e01a77c6b3041fe602e8",
+    "title": "Pizza",
+    "director": "Karthik Subbaraj",
+    "year": 2012,
+    "createdAt": "2024-05-27T09:00:26.000Z",
+    "updatedAt": "2024-05-27T09:00:26.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "6654e02077c6b3041fe602ea",
+    "title": "Papanasam",
+    "director": "Jeethu Joseph",
+    "year": 2015,
+    "createdAt": "2024-05-27T09:00:32.000Z",
+    "updatedAt": "2024-05-27T09:00:32.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "6654e02677c6b3041fe602ec",
+    "title": "Visaranai",
+    "director": "Vetrimaran",
+    "year": 2015,
+    "createdAt": "2024-05-27T09:00:38.000Z",
+    "updatedAt": "2024-05-27T09:00:38.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "6654e02d77c6b3041fe602ee",
+    "title": "Thuppakki",
+    "director": "AR Murugadoss",
+    "year": 2012,
+    "createdAt": "2024-05-27T09:00:45.000Z",
+    "updatedAt": "2024-05-27T09:00:45.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "6654e03477c6b3041fe602f0",
+    "title": "Ratsasan",
+    "director": "Ram Kumar",
+    "year": 2018,
+    "createdAt": "2024-05-27T09:00:52.000Z",
+    "updatedAt": "2024-05-27T09:00:52.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "6654e03b77c6b3041fe602f2",
+    "title": "Mersal",
+    "director": "Atlee",
+    "year": 2017,
+    "createdAt": "2024-05-27T09:00:59.000Z",
+    "updatedAt": "2024-05-27T09:00:59.000Z",
+    "__v": 0
+  }
+]
+
